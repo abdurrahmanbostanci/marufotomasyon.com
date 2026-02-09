@@ -83,7 +83,10 @@ export default function AboutUs() {
                         </CardContent>
                         <CardContent extra>
                             <Button icon='linkedin' color='linkedin' href="https://www.linkedin.com/in/abdubstnci/" target="_blank">
-                                <Icon name='linkedin' /> Linkedin
+                                <Icon name='linkedin' /> LinkedIn
+                            </Button>
+                            <Button icon='github' color='black' href="https://github.com/abdurrahmanbostanci" target="_blank">
+                                <Icon name='github' /> GitHub
                             </Button>
                         </CardContent>
                     </Card>
