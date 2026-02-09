@@ -6,7 +6,7 @@ import {
   Divider
 } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
-import "./MobileCategories.css";
+import "../styles/MobileCategories.css";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const categories = [
