@@ -10,9 +10,9 @@ import "../styles/MobileCategories.css";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const categories = [
-  { id: 1, name: "Endüstriyal Otomasyon", icon: "/images/automation-cat.jpg" },
-  { id: 2, name: "Endüstriyal Isı Kontrol", icon: "/images/ısı-kontrol.png" },
-  { id: 3, name: "Endüstriyal Isıtma", icon: "/images/ısıtma.jpg" },
+  { id: 1, name: "Endüstriyel Otomasyon", icon: "/images/automation-cat.jpg" },
+  { id: 2, name: "Endüstriyel Isı Kontrol", icon: "/images/ısı-kontrol.png" },
+  { id: 3, name: "Endüstriyel Isıtma", icon: "/images/ısıtma.jpg" },
   { id: 4, name: "UV Kontrol", icon: "/images/uv-kontrol.png" },
   { id: 5, name: "Bütün Ürünler", icon: "/images/yenilikçi4.jpg" },
   { id: 6, name: "2. El Ürünler", icon: "/images/microsoft-clippy.jpg" }
