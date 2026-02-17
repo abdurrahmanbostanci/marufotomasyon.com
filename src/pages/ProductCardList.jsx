@@ -161,17 +161,17 @@ export default function ProductCardList() {
                     as={Link}
                     to={
                       "/products/" +
-                      product.categoryName +
+                      encodeURIComponent(product.categoryName) +
                       "/" +
-                      product.productName
+                      encodeURIComponent(product.productName)
                     }
                   >
                     <Link
                       to={
                         "/products/" +
-                        product.categoryName +
+                        encodeURIComponent(product.categoryName) +
                         "/" +
-                        product.productName
+                        encodeURIComponent(product.productName)
                       }
                     >
                       <Image
@@ -188,11 +188,11 @@ export default function ProductCardList() {
                       <CardHeader>
                         <Link
                           to={
-                            "/products/" +
-                            product.categoryName +
-                            "/" +
-                            product.productName
-                          }
+                        "/products/" +
+                        encodeURIComponent(product.categoryName) +
+                        "/" +
+                        encodeURIComponent(product.productName)
+                      }
                         >
                           {product.productName}
                         </Link>
